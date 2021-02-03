@@ -33,11 +33,11 @@
     "version_arn": ""
   },
     "lambda_functions": {
-        "MockDevice": {
-            "arn": "arn:aws:lambda:us-west-2:<account_id>:function:MockDevice:<alias>",
-            "arn_qualifier": "<alias>",
+        "opcua-adapter": {
+            "arn": "",
+            "arn_qualifier": "PRODUCTION",
             "environment_variables": {
-               "<name>": "<value>"
+               "AWS_LAMBDA_OPCUA_ADAPTER_CONFIG_FILE_PATH": "/media/mmcblk0p1"
             }
         }
     },

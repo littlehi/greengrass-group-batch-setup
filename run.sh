@@ -17,5 +17,6 @@ do
   mkdir $gg_dir && cp cfg.json $gg_dir && cd $gg_dir
   gg_group_setup create-core $gg_core_name cfg.json --region=cn-north-1
   gg_group_setup create mock cfg.json --group_name $gg_group_name --region=cn-north-1
+  mv *.config.json config.json
   cd ..
 done
