@@ -37,7 +37,8 @@
             "arn": "",
             "arn_qualifier": "PRODUCTION",
             "environment_variables": {
-               "AWS_LAMBDA_OPCUA_ADAPTER_CONFIG_FILE_PATH": "/media/mmcblk0p1"
+               "AWS_LAMBDA_OPCUA_ADAPTER_CONFIG_FILE_PATH": "/media/mmcblk0p1",
+	       "AWS_LAMBDA_OPCUA_ADAPTER_SEND_ALL_DATA_TO_CLOUD":"true"
             }
         }
     },
